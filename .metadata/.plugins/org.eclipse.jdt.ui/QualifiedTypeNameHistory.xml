@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.kh.mybatis.member.model.service.MemberServiceimpl"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.member.model.vo.Member"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.common.template.Template"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.board.model.vo.Reply"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.common.template.Pagenation"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mybatisProject/src/main/webapp/WEB-INF/views/board/boardDetailview.jsp&apos; to &apos;boardDetailView.jsp&apos;" description="Rename resource &apos;boardDetailview.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/views/board/boardDetailview.jsp" name="boardDetailView.jsp" stamp="1698805708458" updateReferences="true"/>
+</session>

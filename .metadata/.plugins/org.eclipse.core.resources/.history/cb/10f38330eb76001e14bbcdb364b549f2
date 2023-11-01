@@ -1,0 +1,8 @@
+package com.kh.mybatis.member.model.vo;
+
+public class Manager {
+	private int ManagerNumber;
+	private String ManagerName;
+	private Date ManagerHireDate;
+	
+}

@@ -1,0 +1,81 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    #list-area{
+        border: 1px solid white;
+        text-align: center;
+    }
+
+    .outer a{
+        color: white;
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+    <jsp:include page="../common/menubar.jsp"/>
+
+    <div class="outer" align="center">
+        <br>
+        <h1 align="center">게시판</h1>
+        <br>
+
+        <div id="search-area"></div>
+
+        <br>
+
+        <table id="list-area">
+            <thead>
+                <tr>
+                    <th>글번호</th>
+                    <th width="400">제목</th>
+                    <th>작성자</th>
+                    <th>조회수</th>
+                    <th>작성일</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>105</td>
+                    <td>안녕하세요</td>
+                    <td>admin</td>
+                    <td>201</td>
+                    <td>2023/10/31</td>
+                </tr>
+                <tr>
+                    <td>105</td>
+                    <td>안녕하세요</td>
+                    <td>admin</td>
+                    <td>201</td>
+                    <td>2023/10/31</td>
+                </tr>
+                <tr>
+                    <td>105</td>
+                    <td>안녕하세요</td>
+                    <td>admin</td>
+                    <td>201</td>
+                    <td>2023/10/31</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <div id="paging-area">
+            <a href="">[이전]</a>
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">[다음]</a>
+        </div>
+        <br><br>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+package com.kh.mybatis.common.template;
+
+import org.apache.ibatis.session.SqlSession;
+
+public class Template {
+	//마이바티스
+	public static SqlSession getSqlSession() {
+		
+		// mybatis-config.xml => 파일 읽어드리기
+		// 해당 DB와 접속된 SqlSesson 객체 생성해서 반환하기
+		
+		SqlSession sqlSession = null;
+		
+		// SqlSession생성하기 위해서는 => SqlSessionFactory필요
+		// SqlSessionFactory생성하기 위해서는 => SqlSessionFactoryBuilder필요
+		
+		String resource = "/"
+	}
+}
